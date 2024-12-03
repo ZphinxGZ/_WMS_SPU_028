@@ -1,0 +1,51 @@
+.Inbound-container{
+  margin: 3rem 7rem;
+  padding: 0.5rem;
+  background-color: #f2f2e6;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  height: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+  border-radius: 0.5rem;
+
+}
+
+.HaveSN-Link{
+  border-radius: 0.5rem;
+  border: 1px black solid;
+  background-color: #74bdbc;
+  color: white;
+  width: 15rem;
+  height: 7rem;
+  font-weight: bold;
+  font-size: large;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.DonthaveSN-Link{
+  border-radius: 0.5rem;
+  border: 1px black solid;
+  background-color: #fd6e2b;
+  color: white;
+  width: 15rem;
+  height: 7rem;
+  font-weight: bold;
+  font-size: large;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+.modal-dialog {
+  max-width: 60%;  /* กำหนดขนาดของ Modal ให้กว้างขึ้น */
+}
+
+

@@ -1,0 +1,79 @@
+.table-container {
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 5rem;
+  padding: 1rem;
+
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.filter {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-button {
+  margin-left: auto;
+}
+
+.table-wrapper {
+  max-height: 600px; 
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.table th{
+  /* border: 1px solid black; */
+  padding: 8px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #f2f2e6; /* ตั้งสีพื้นหลังเพื่อให้แยกแถวหัวกับแถวข้อมูล */
+  font-weight: bold;
+  
+}
+
+.table td {
+  /* border: 1px solid black; */
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+} 
+
+
+/* กำหนดความกว้างสำหรับแต่ละคอลัมน์ */
+.table th:nth-child(1), .table td:nth-child(1) { width: 5%; } /* ID */
+.table th:nth-child(2), .table td:nth-child(2) { width: 45%; } /* Name */
+.table th:nth-child(3), .table td:nth-child(3) { width: 20%; } /* Role */
+.table th:nth-child(4), .table td:nth-child(4) { width: 10%; } /* Password */
+.table th:nth-child(5), .table td:nth-child(5) { width: 10%; } /* Edit */
+.table th:nth-child(6), .table td:nth-child(6) { width: 10%; } /* Delete */
+
+/* Modals */
+
+/* .modal-body, .modal-header { */
+  /* display: flex; */
+  /* justify-content: center;  จัดตำแหน่งในแนวนอน */
+  /* align-items: center;      จัดตำแหน่งในแนวตั้ง */
+  /* text-align: center;       จัดให้ข้อความอยู่กลาง */
+/* } */
+
+.rounded-circle{
+  width: 10rem;
+  height: 10rem;
+}
+.search-container {
+  margin-right: 10px;
+  margin-left: 70rem;
+  flex-grow: 1;
+}
